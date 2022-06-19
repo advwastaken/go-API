@@ -1,4 +1,4 @@
-module github.com/adv-wastaken
+module github.com/adv-wastaken/go-API
 
 go 1.18
 
