@@ -4,7 +4,7 @@ import (
   "errors"
   "strings"
   "net/http"
-  "go-api/school"
+  "go-API/school"
   "github.com/gin-gonic/gin"
 )
 
