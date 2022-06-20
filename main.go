@@ -8,7 +8,7 @@ import (
   "github.com/gin-gonic/gin"
 )
 
-var topSchools = new(school.topSchools)
+var topSchools = school.topSchools
 
 func getAllSchools(c *gin.Context) {
   c.IndentedJSON(http.StatusOK, topSchools)
