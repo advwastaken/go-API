@@ -14,7 +14,7 @@ func getAllSchools(c *gin.Context) {
   c.IndentedJSON(http.StatusOK, topSchools)
 }
 
-func filterSchool(data string) (*School, error) {
+func filterSchool(data string) (*school.School, error) {
   for i, school := range topSchools {
     if strings.EqualFold(data, school.Name) || strings.HasPrefix(data, school.Name) || strings.Contains(data, school.Name) {
       return &topSchools[i], nil
